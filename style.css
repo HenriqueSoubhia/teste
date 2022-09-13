@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    animation: penis 5s alternate infinite;
+    display: flex;
+    justify-content: center;
+    background-size: 15%;
+}
+
+main {
+    background-color: white;
+    font-family: "My Soul", cursive;
+    width: 70%;
+    height: 100vh;
+    background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    animation: color-change 1s infinite;
+    background: linear-gradient(45deg, #ff0000,#800080,#008000);
+    border: #ffff00 2px;
+    border-style: dashed;
+    padding: 5px;
+}
+
+@keyframes color-change {
+    0% {
+        color: #ff0000;
+    }
+    50% {
+        color: #0000ff;
+    }
+    100% {
+        color: #ffff00;
+    }
+}
+
+@keyframes penis {
+    0% {
+        background-image: url("flamengo.png");
+    }
+    50% {
+        background-image: url("vasco.png");
+    }
+    100% {
+        background-image: url("flasco.png");
+    }
+}
+
+@media (min-width:576px) {
+    main{
+        background: url('bola.jpeg');
+    }
+}
+
+@media (min-width:992PX) {
+    main{
+        background: url('edi.PNG');
+    }
+}
+
+@media (min-width:1200px) {
+    main{
+        background: url('rato.jpg');
+    }
+}
+
